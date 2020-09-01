@@ -49,7 +49,7 @@ test:
 
 about:
   home: http://nion.com/swift
-  license: GPL3
+  license: GPL-3.0-or-later
   license_file: LICENSE
   summary: 'Nion Swift: Scientific Image Processing'
   doc_url: https://nionswift.readthedocs.io/en/stable/index.html
@@ -58,4 +58,4 @@ about:
 extra:
   recipe-maintainers:
     - cmeyer
-    - ericpre
+    - nion-gwyn
