@@ -5,7 +5,7 @@ Home: http://nion.com/swift
 
 Package license: GPL3
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Nion Swift: Scientific Image Processing
 
