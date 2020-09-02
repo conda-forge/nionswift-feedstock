@@ -13,7 +13,7 @@ source:
   sha256: cd8a302982b4b7cc20ee8f09e3eddccf6e588d92a97b578ac3a6ed4d33067e3c
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - nionswift=nion.swift.command:main
@@ -22,17 +22,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - h5py
     - imageio
-    - niondata >=0.13.6
-    - nionswift-io
-    - nionui >=0.3.25
-    - nionutils >=0.3.17,<0.4.0
+    - niondata >=0.13.11,<0.14.0
+    - nionswift-io >=0.14.0
+    - nionui >=0.4.0,<0.5.0
+    - nionutils >=0.3.21,<0.4.0
     - numpy
     - pillow
-    - python >=3.6
+    - python >=3.7
     - pytz
     - scipy
     - tzlocal
