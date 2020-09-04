@@ -3,7 +3,7 @@ About nionswift
 
 Home: http://nion.com/swift
 
-Package license: GPL3
+Package license: GPL-3.0-or-later
 
 Feedstock license: BSD-3-Clause
 
@@ -117,5 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@cmeyer](https://github.com/cmeyer/)
-* [@ericpre](https://github.com/ericpre/)
+* [@nion-gwyn](https://github.com/nion-gwyn/)
 
