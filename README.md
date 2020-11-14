@@ -5,11 +5,13 @@ Home: http://nion.com/swift
 
 Package license: GPL-3.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nionswift-feedstock/blob/master/LICENSE.txt)
 
 Summary: Nion Swift: Scientific Image Processing
 
+Development: https://github.com/nion-software/nionswift
 
+Documentation: https://nionswift.readthedocs.io/en/stable/index.html
 
 Current build status
 ====================
