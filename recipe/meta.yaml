@@ -22,17 +22,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
     - h5py
     - imageio
-    - niondata >=0.13.13,<0.14.0
-    - nionswift-io >=0.14.0
-    - nionui >=0.5.2,<0.6.0
-    - nionutils >=0.3.25,<0.4.0
-    - numpy
+    - niondata >=0.14.0,<0.15.0
+    - nionswift-io >=0.15.0
+    - nionui >=0.6.0,<0.7.0
+    - nionutils >=0.4.0,<0.5.0
+    - numpy >=1.21,<2.0
     - pillow
-    - python >=3.7
+    - python >=3.8
     - pytz
     - scipy
     - tzlocal
