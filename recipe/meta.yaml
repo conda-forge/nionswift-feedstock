@@ -25,11 +25,11 @@ requirements:
     - python >=3.8
   run:
     - h5py
-    - imageio
+    - imageio >=2.19.0
     - niondata >=0.15.0,<0.16.0
     - nionswift-io >=0.15.0
     - nionui >=0.6.3,<0.7.0
-    - nionutils >=0.4.0,<0.5.0
+    - nionutils >=0.4.4,<0.5.0
     - numpy >=1.21,<2.0
     - pillow
     - python >=3.8
