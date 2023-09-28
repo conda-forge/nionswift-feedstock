@@ -1,5 +1,5 @@
 {% set name = "nionswift" %}
-{% set version = "0.16.8" %}
+{% set version = "16.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -10,7 +10,7 @@ source:
   #url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
   #sha256: 1f0aae216af499bf0c4e6e2571bd37d53ee75096866fa4266c9014d6d31fffb5
   url: https://github.com/nion-software/nionswift/archive/{{ version }}.tar.gz
-  sha256: 272d4940dc6bc87e3f57e89b6d53f5b381834baa02186a8860db77dc01f98abd
+  sha256: 46999f40c5a0e246b1a755aeb6be3ceba1eb28b6fc814cae73bdb5b9b447f7d8
 
 build:
   number: 0
@@ -22,17 +22,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.9
   run:
     - h5py
     - imageio >=2.19.0
-    - niondata >=0.15.3,<0.16.0
-    - nionswift-io >=0.15.0
-    - nionui >=0.6.6,<0.7.0
+    - niondata >=15.6,<16.0
+    - nionswift-io >=15.2,<16.0
+    - nionui >=7.0,<7.1
     - nionutils >=0.4.5,<0.5.0
-    - numpy >=1.21,<2.0
+    - numpy >=1.25,<2.0
     - pillow
-    - python >=3.8
+    - python >=3.9
     - pytz
     - scipy
     - tzlocal
