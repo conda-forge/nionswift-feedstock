@@ -26,11 +26,11 @@ requirements:
   run:
     - h5py
     - imageio >=2.19.0
-    - niondata >=15.6,<16.0
+    - niondata >=15.6.2,<16.0
     - nionswift-io >=15.2,<16.0
-    - nionui >=7.0,<7.1
-    - nionutils >=0.4.5,<5.0.0
-    - numpy >=1.25,<2.0
+    - nionui >=7.0.2,<8.0
+    - nionutils >=0.4.10,<5.0
+    - numpy >=1.26,<2.0
     - pillow
     - python >=3.9
     - pytz
