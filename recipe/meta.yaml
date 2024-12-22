@@ -1,3 +1,4 @@
+{% set python_min = '3.11' %}
 {% set name = "nionswift" %}
 {% set version = "16.12.0" %}
 
@@ -13,7 +14,7 @@ source:
   sha256: 12471b6a4f547b7f2bec4ededa6c3da28784c95f88046cd67586a3650289d501
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - nionswift=nion.swift.command:main
@@ -22,7 +23,7 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.11
+    - python {{ python_min }}
     - setuptools
   run:
     - h5py
@@ -33,12 +34,14 @@ requirements:
     - nionswift-io >=15.3,<16.0
     - numpy >=2.0,<3.0
     - pillow
-    - python >=3.11
+    - python >={{ python_min }}
     - pytz
     - scipy
     - tzlocal
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - nion.swift
     - nion.swift.model
