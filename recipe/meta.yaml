@@ -1,6 +1,6 @@
 {% set python_min = "3.11" %}
 {% set name = "nionswift" %}
-{% set version = "16.16.2" %}
+{% set version = "16.17.0" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   #url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
   #sha256: 1f0aae216af499bf0c4e6e2571bd37d53ee75096866fa4266c9014d6d31fffb5
   url: https://github.com/nion-software/nionswift/archive/{{ version }}.tar.gz
-  sha256: 6576492dc8c077eeef5f8ad3f9cd0995bbf297d049461c7399aac83fd55dfd22
+  sha256: 72de4483cc359cfbdd560311e3687b8663d19ec286195b09311f45af59c09f7e
 
 build:
   number: 0
